@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<form method="post">
+    <input type="text" name="name"/>
+    <input type="text" name="email"/>
+    <button type="submit">Bro</button>
+</form>
+<form method="post" action="coolbro">
+    <input type="text" name="filter"/>
+    <button type="submit">BroFilter</button>
+</form>
+
+{{#bro}}
+    <div>{{id}}</div>
+    <div>{{name}}</div>
+    <div> {{email}}</div>
+
+{{/bro}}
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+com\example\servingwebcontent\GreetingController.class
+com\example\servingwebcontent\UserRepository.class
+com\example\servingwebcontent\User.class
+com\example\servingwebcontent\ServingWebContentApplication.class
