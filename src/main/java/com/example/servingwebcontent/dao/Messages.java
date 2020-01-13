@@ -1,4 +1,4 @@
-package com.example.servingwebcontent;
+package com.example.servingwebcontent.dao;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity // This tells Hibernate to make a table out of this class
-public class User {
+public class Messages {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
@@ -15,11 +15,11 @@ public class User {
 
     private String email;
 
-    public User() {
+    public Messages() {
     }
 
 
-    public User(String name,String email){
+    public Messages(String name, String email){
         this.name=name;
         this.email=email;
     }
